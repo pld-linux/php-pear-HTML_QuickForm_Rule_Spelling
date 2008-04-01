@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	HTML_QuickForm_Rule_Spelling
 Summary:	%{_pearname} - A HTML_QuickForm rule plugin that checks the spelling of its values
-Summary(pl.UTF-8):	%{_pearname} - wtyczka HTML_QuickForm sprawdzająca pisownie słów
+Summary(pl.UTF-8):	%{_pearname} - wtyczka HTML_QuickForm sprawdzająca pisownię słów
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
 Release:	2
@@ -26,7 +26,7 @@ Although browsers now have builtin spellcheckers,
 HTML_QuickForm_Rule_Spelling allows you to control the quality of text
 data submitted.
 
-The frontend is a clientside javascript dialog that goes through the
+The frontend is a clientside JavaScript dialog that goes through the
 misspelt words, giving the user the option to ignore the word, add it
 to the dictionary or change the word given a list of suggestions.
 
@@ -37,10 +37,10 @@ Chociaż przeglądarki nie posiadają wbudowanej funkcjonalności
 sprawdzania pisowni, HTML_QuickForm_Rule_Spelling pozwala na kontrolę
 jakości wpisanego tekstu.
 
-Frontend to wyświetlane przez kod javascript okno wyświetlające
-błędnie wpisane słowa, dając użytkownikowi możliwość zignorowania
-danego słowa, dodania go do słownika bądź jego zmiany z listy
-proponowanych.
+Frontend to wyświetlane przez kod w JavaScripcie po stronie klienta
+okno pokazujące błędnie wpisane słowa, dające użytkownikowi możliwość
+zignorowania danego słowa, dodania go do słownika bądź jego zmiany z
+użyciem listy proponowanych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
