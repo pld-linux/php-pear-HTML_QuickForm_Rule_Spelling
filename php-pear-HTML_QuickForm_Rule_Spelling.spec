@@ -1,22 +1,22 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		HTML
-%define		_subclass	QuickForm_Rule_Spelling
 %define		_status		alpha
 %define		_pearname	HTML_QuickForm_Rule_Spelling
 Summary:	%{_pearname} - A HTML_QuickForm rule plugin that checks the spelling of its values
 Summary(pl.UTF-8):	%{_pearname} - wtyczka HTML_QuickForm sprawdzająca pisownię słów
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f792d38c7f90c932f99f0c87cc76d970
 URL:		http://pear.php.net/package/HTML_QuickForm_Rule_Spelling/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-json
 Requires:	php-pear
 Requires:	php-pear-HTML_QuickForm
+Suggests:	php-pspell
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
