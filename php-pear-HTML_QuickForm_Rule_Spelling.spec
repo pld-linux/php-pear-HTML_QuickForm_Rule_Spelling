@@ -5,7 +5,7 @@ Summary:	%{_pearname} - A HTML_QuickForm rule plugin that checks the spelling of
 Summary(pl.UTF-8):	%{_pearname} - wtyczka HTML_QuickForm sprawdzająca pisownię słów
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
-Release:	4
+Release:	5
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -14,7 +14,7 @@ URL:		http://pear.php.net/package/HTML_QuickForm_Rule_Spelling/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-json
+Requires:	php(json)
 Requires:	php-pear
 Requires:	php-pear-HTML_QuickForm
 Suggests:	php-pspell
