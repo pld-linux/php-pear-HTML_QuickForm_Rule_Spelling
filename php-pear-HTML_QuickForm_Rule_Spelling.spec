@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	HTML_QuickForm_Rule_Spelling
 Summary:	%{_pearname} - A HTML_QuickForm rule plugin that checks the spelling of its values
